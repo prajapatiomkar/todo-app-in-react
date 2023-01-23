@@ -1,0 +1,29 @@
+.root-contianer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+.operation-field{
+    margin-top: 2rem;
+}
+
+.todo-list{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form input{
+    padding: 1rem;
+}
+.form button{
+    padding: 1rem;
+}
