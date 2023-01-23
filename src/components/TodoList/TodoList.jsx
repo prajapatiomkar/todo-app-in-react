@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState, useRef } from 'react'
 import Card from '../Card/Card'
 import "./TodoList.css"
-let endpoint = "http://localhost:8080"
+let endpoint = "https://todo-api-8tvh.onrender.com"
 
 export default function TodoList() {
     const [value, setValue] = useState(0);
@@ -21,7 +21,7 @@ export default function TodoList() {
             .catch(function (err) {
                 console.log(err)
             })
-    }, [ value])
+    }, [value])
 
     // Done function
     function done(id) {
